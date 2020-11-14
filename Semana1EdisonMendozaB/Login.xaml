@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Semana1EdisonMendozaB.Login">
+    <ContentPage.Content>
+        <StackLayout>
+            <Entry x:Name="txtuser"
+               Placeholder="Ingrese el usuario">
+            </Entry>
+            <Entry x:Name="txtpass"
+               Placeholder="Ingrese la clave" IsPassword="True"></Entry>
+            <Label Text="Abrir" TextColor="Blue"
+                   
+                ></Label>
+            <Button x:Name="btnAbrirLogin"
+                    Text="Abrir Menu"
+                    Clicked="btnAbrirLogin_Clicked"></Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

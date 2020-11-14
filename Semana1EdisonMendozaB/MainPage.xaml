@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Semana1EdisonMendozaB.MainPage">
+
+    <StackLayout>
+    
+
+        <Label Text="NOTAS UISRAEL" HorizontalTextAlignment="Center" FontSize="20" TextColor="Blue" >
+            
+            
+
+            </Label>
+            <Entry x:Name="txtDato1" Placeholder="Ingrese Nota de Seguimiento 1" Keyboard="Numeric"
+                ></Entry>
+            <Entry x:Name="txtDato2" Placeholder="Ingrese Examen 1 " Keyboard="Numeric">
+
+            </Entry>
+            <Entry x:Name="txtResultado" IsReadOnly="True"></Entry>
+            <Button x:Name="btnSumar"
+                    Text="NotaParcial1"
+                    Clicked="btnSumar_Clicked" >
+                
+            </Button>
+
+        <Entry x:Name="txtDato3" Placeholder="Ingrese Nota de Seguimiento 2" Keyboard="Numeric" ></Entry>
+        <Entry x:Name="txtDato4" Placeholder="Ingrese Examen2" Keyboard="Numeric"></Entry>
+        <Entry x:Name="txtResultado1" IsReadOnly="True"></Entry>
+        <Button x:Name="btnSumar2"
+                Text=" = NotaParcial2"
+                Clicked="btnSumar_Clicked" ></Button>
+
+        <Label Text="Promedio Final:" x:Name="txtFinal" IsEnabled="True" HorizontalOptions="Center" FontSize="20" TextColor="Blue"></Label>
+
+        
+    </StackLayout>
+
+</ContentPage>
